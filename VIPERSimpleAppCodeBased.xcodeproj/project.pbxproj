@@ -7,19 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061C2FD32530F107001D610C /* PostTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C2FD22530F107001D610C /* PostTVC.swift */; };
 		0640932F2530D38E002D3620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0640932E2530D38E002D3620 /* AppDelegate.swift */; };
-		064093312530D38E002D3620 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064093302530D38E002D3620 /* RootVC.swift */; };
 		064093332530D390002D3620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064093322530D390002D3620 /* Assets.xcassets */; };
 		064093362530D390002D3620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 064093342530D390002D3620 /* LaunchScreen.storyboard */; };
+		067E73752530DB2700ED7334 /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067E736A2530DB2700ED7334 /* BaseWireframe.swift */; };
+		067E73792530DB2700ED7334 /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067E736E2530DB2700ED7334 /* UIStoryboardExtension.swift */; };
+		06E5AD2B2530DE39000D569B /* Posts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06E5AD222530DE39000D569B /* Posts.storyboard */; };
+		06E5AD2C2530DE39000D569B /* PostsAPIsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5AD232530DE39000D569B /* PostsAPIsDataManager.swift */; };
+		06E5AD2D2530DE39000D569B /* PostsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5AD242530DE39000D569B /* PostsPresenter.swift */; };
+		06E5AD2E2530DE39000D569B /* PostsLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5AD252530DE39000D569B /* PostsLocalDataManager.swift */; };
+		06E5AD2F2530DE39000D569B /* PostsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5AD262530DE39000D569B /* PostsProtocols.swift */; };
+		06E5AD302530DE39000D569B /* PostsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5AD272530DE39000D569B /* PostsInteractor.swift */; };
+		06E5AD312530DE39000D569B /* PostsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5AD282530DE39000D569B /* PostsVC.swift */; };
+		06E5AD322530DE39000D569B /* PostsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5AD292530DE39000D569B /* PostsEntity.swift */; };
+		06E5AD332530DE39000D569B /* PostsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5AD2A2530DE39000D569B /* PostsWireframe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		061C2FD22530F107001D610C /* PostTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTVC.swift; sourceTree = "<group>"; };
 		0640932B2530D38E002D3620 /* VIPERSimpleAppCodeBased.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERSimpleAppCodeBased.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0640932E2530D38E002D3620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		064093302530D38E002D3620 /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
 		064093322530D390002D3620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		064093352530D390002D3620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		064093372530D390002D3620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067E736A2530DB2700ED7334 /* BaseWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
+		067E736E2530DB2700ED7334 /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
+		06E5AD222530DE39000D569B /* Posts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Posts.storyboard; sourceTree = "<group>"; };
+		06E5AD232530DE39000D569B /* PostsAPIsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsAPIsDataManager.swift; sourceTree = "<group>"; };
+		06E5AD242530DE39000D569B /* PostsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsPresenter.swift; sourceTree = "<group>"; };
+		06E5AD252530DE39000D569B /* PostsLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsLocalDataManager.swift; sourceTree = "<group>"; };
+		06E5AD262530DE39000D569B /* PostsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsProtocols.swift; sourceTree = "<group>"; };
+		06E5AD272530DE39000D569B /* PostsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsInteractor.swift; sourceTree = "<group>"; };
+		06E5AD282530DE39000D569B /* PostsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsVC.swift; sourceTree = "<group>"; };
+		06E5AD292530DE39000D569B /* PostsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsEntity.swift; sourceTree = "<group>"; };
+		06E5AD2A2530DE39000D569B /* PostsWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsWireframe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +74,152 @@
 		0640932D2530D38E002D3620 /* VIPERSimpleAppCodeBased */ = {
 			isa = PBXGroup;
 			children = (
-				0640932E2530D38E002D3620 /* AppDelegate.swift */,
-				064093302530D38E002D3620 /* RootVC.swift */,
-				064093322530D390002D3620 /* Assets.xcassets */,
-				064093342530D390002D3620 /* LaunchScreen.storyboard */,
-				064093372530D390002D3620 /* Info.plist */,
+				06E79B152530D66500F70E69 /* App */,
+				06E79B192530D81B00F70E69 /* Scenes */,
+				06E79B322530D88000F70E69 /* Utillites */,
+				06E79B172530D69000F70E69 /* Resource */,
+				06E79B182530D6A900F70E69 /* Configuration */,
+				06E79B312530D87000F70E69 /* SupportingFiles */,
 			);
 			path = VIPERSimpleAppCodeBased;
+			sourceTree = "<group>";
+		};
+		06E5AD342530DE40000D569B /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				06E5AD282530DE39000D569B /* PostsVC.swift */,
+				061C2FD22530F107001D610C /* PostTVC.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		06E5AD352530DE58000D569B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				06E5AD242530DE39000D569B /* PostsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		06E5AD362530DE6C000D569B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				06E5AD272530DE39000D569B /* PostsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		06E5AD372530DE7E000D569B /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				06E5AD2A2530DE39000D569B /* PostsWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		06E5AD382530DE8D000D569B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				06E5AD262530DE39000D569B /* PostsProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		06E5AD392530DE9E000D569B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				06E5AD292530DE39000D569B /* PostsEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		06E5AD3A2530DEAF000D569B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				06E5AD3C2530DEC6000D569B /* Databbse */,
+				06E5AD3B2530DEB9000D569B /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		06E5AD3B2530DEB9000D569B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				06E5AD232530DE39000D569B /* PostsAPIsDataManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		06E5AD3C2530DEC6000D569B /* Databbse */ = {
+			isa = PBXGroup;
+			children = (
+				06E5AD252530DE39000D569B /* PostsLocalDataManager.swift */,
+			);
+			path = Databbse;
+			sourceTree = "<group>";
+		};
+		06E79B152530D66500F70E69 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0640932E2530D38E002D3620 /* AppDelegate.swift */,
+				064093342530D390002D3620 /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		06E79B172530D69000F70E69 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				064093322530D390002D3620 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		06E79B182530D6A900F70E69 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				064093372530D390002D3620 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		06E79B192530D81B00F70E69 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				06E79B1A2530D84900F70E69 /* Posts */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		06E79B1A2530D84900F70E69 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				06E5AD222530DE39000D569B /* Posts.storyboard */,
+				06E5AD342530DE40000D569B /* VCs */,
+				06E5AD352530DE58000D569B /* Presenter */,
+				06E5AD362530DE6C000D569B /* Interactor */,
+				06E5AD372530DE7E000D569B /* Wireframe */,
+				06E5AD382530DE8D000D569B /* Protocols */,
+				06E5AD3A2530DEAF000D569B /* Services */,
+				06E5AD392530DE9E000D569B /* Entity */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		06E79B312530D87000F70E69 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		06E79B322530D88000F70E69 /* Utillites */ = {
+			isa = PBXGroup;
+			children = (
+				067E736E2530DB2700ED7334 /* UIStoryboardExtension.swift */,
+				067E736A2530DB2700ED7334 /* BaseWireframe.swift */,
+			);
+			path = Utillites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06E5AD2B2530DE39000D569B /* Posts.storyboard in Resources */,
 				064093332530D390002D3620 /* Assets.xcassets in Resources */,
 				064093362530D390002D3620 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -131,8 +293,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				064093312530D38E002D3620 /* RootVC.swift in Sources */,
+				06E5AD2C2530DE39000D569B /* PostsAPIsDataManager.swift in Sources */,
+				067E73752530DB2700ED7334 /* BaseWireframe.swift in Sources */,
+				06E5AD2E2530DE39000D569B /* PostsLocalDataManager.swift in Sources */,
 				0640932F2530D38E002D3620 /* AppDelegate.swift in Sources */,
+				06E5AD2F2530DE39000D569B /* PostsProtocols.swift in Sources */,
+				06E5AD332530DE39000D569B /* PostsWireframe.swift in Sources */,
+				06E5AD302530DE39000D569B /* PostsInteractor.swift in Sources */,
+				061C2FD32530F107001D610C /* PostTVC.swift in Sources */,
+				06E5AD322530DE39000D569B /* PostsEntity.swift in Sources */,
+				06E5AD2D2530DE39000D569B /* PostsPresenter.swift in Sources */,
+				06E5AD312530DE39000D569B /* PostsVC.swift in Sources */,
+				067E73792530DB2700ED7334 /* UIStoryboardExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +442,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y699PM52F2;
-				INFOPLIST_FILE = VIPERSimpleAppCodeBased/Info.plist;
+				INFOPLIST_FILE = VIPERSimpleAppCodeBased/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -288,7 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y699PM52F2;
-				INFOPLIST_FILE = VIPERSimpleAppCodeBased/Info.plist;
+				INFOPLIST_FILE = VIPERSimpleAppCodeBased/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

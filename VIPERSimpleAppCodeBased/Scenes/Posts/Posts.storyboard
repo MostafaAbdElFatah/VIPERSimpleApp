@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PostsVC-->
+        <scene sceneID="XJ1-QA-Nrj">
+            <objects>
+                <viewController storyboardIdentifier="PostsVC" id="zIc-eW-6fX" customClass="PostsVC" customModule="VIPERSimpleAppCodeBased" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z2g-4m-atm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NaF-wY-c63">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="90" id="9HL-G4-XHr" customClass="PostTVC" customModule="VIPERSimpleAppCodeBased" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9HL-G4-XHr" id="GcH-OB-O5y">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="UserName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05A-ed-wQI">
+                                                    <rect key="frame" x="25" y="20" width="242" height="18.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01-10-2017" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvO-IE-xTb">
+                                                    <rect key="frame" x="277" y="20" width="88" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Oe-o0-TIG">
+                                                    <rect key="frame" x="25" y="48.5" width="325" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="0Oe-o0-TIG" secondAttribute="trailing" constant="10" id="9kk-IE-tbJ"/>
+                                                <constraint firstAttribute="trailing" secondItem="fvO-IE-xTb" secondAttribute="trailing" constant="10" id="GbG-Z3-9cb"/>
+                                                <constraint firstItem="0Oe-o0-TIG" firstAttribute="top" secondItem="05A-ed-wQI" secondAttribute="bottom" constant="10" id="Mhr-f7-MlX"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="0Oe-o0-TIG" secondAttribute="bottom" constant="10" id="RfO-2q-hac"/>
+                                                <constraint firstItem="05A-ed-wQI" firstAttribute="top" secondItem="GcH-OB-O5y" secondAttribute="top" constant="20" id="eXE-fd-xSx"/>
+                                                <constraint firstItem="fvO-IE-xTb" firstAttribute="top" secondItem="GcH-OB-O5y" secondAttribute="top" constant="20" id="l4q-Dn-7PU"/>
+                                                <constraint firstItem="05A-ed-wQI" firstAttribute="leading" secondItem="GcH-OB-O5y" secondAttribute="leadingMargin" constant="10" id="ptN-nn-m6t"/>
+                                                <constraint firstItem="fvO-IE-xTb" firstAttribute="leading" secondItem="05A-ed-wQI" secondAttribute="trailing" constant="10" id="uL4-IG-Etc"/>
+                                                <constraint firstItem="0Oe-o0-TIG" firstAttribute="leading" secondItem="GcH-OB-O5y" secondAttribute="leadingMargin" constant="10" id="w6x-oX-Wvs"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="postDate" destination="fvO-IE-xTb" id="OwN-7G-kwm"/>
+                                            <outlet property="postText" destination="0Oe-o0-TIG" id="5O4-Uh-Vzt"/>
+                                            <outlet property="userName" destination="05A-ed-wQI" id="4Gk-tb-Qq2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="GPJ-r0-k02">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NaF-wY-c63" firstAttribute="top" secondItem="3pi-N7-nbV" secondAttribute="top" id="AXd-9P-U8x"/>
+                            <constraint firstItem="NaF-wY-c63" firstAttribute="leading" secondItem="3pi-N7-nbV" secondAttribute="leading" id="FQ6-rY-ak3"/>
+                            <constraint firstItem="GPJ-r0-k02" firstAttribute="centerX" secondItem="Z2g-4m-atm" secondAttribute="centerX" id="HGy-GN-oT2"/>
+                            <constraint firstItem="3pi-N7-nbV" firstAttribute="trailing" secondItem="NaF-wY-c63" secondAttribute="trailing" id="OsM-kx-JVX"/>
+                            <constraint firstItem="3pi-N7-nbV" firstAttribute="bottom" secondItem="NaF-wY-c63" secondAttribute="bottom" id="RbY-KC-fLK"/>
+                            <constraint firstItem="GPJ-r0-k02" firstAttribute="centerY" secondItem="Z2g-4m-atm" secondAttribute="centerY" id="Rce-N7-4lN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3pi-N7-nbV"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="GPJ-r0-k02" id="JfX-9g-3sY"/>
+                        <outlet property="tableView" destination="NaF-wY-c63" id="XHF-ci-QU9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rle-ol-2Ax" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="302.6986506746627"/>
+        </scene>
+    </scenes>
+</document>
